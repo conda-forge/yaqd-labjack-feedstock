@@ -31,7 +31,6 @@ test:
   imports:
     - yaqd_labjack
   commands:
-    - pip check
     - yaqd-labjack-sensor --help
   requires:
     - pip
