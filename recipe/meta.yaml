@@ -14,7 +14,7 @@ build:
     - yaqd-labjack-sensor = yaqd_labjack._labjack_sensor:LabjackSensor.main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
